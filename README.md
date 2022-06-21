@@ -62,6 +62,7 @@ conda install pytorch=1.4.0 torchvision=0.5.0 cudatoolkit=10.0 -c pytorch
 conda install matplotlib scipy scikit-learn   # For evaluation and confusion matrix visualization
 conda install -c pytorch faiss-gpu            # For efficient nearest neighbors search 
 conda install pyyaml easydict                 # For using config files
+                                              # or conda install -c conda-forge easydict
 conda install termcolor                       # For colored print statements
 ```
 We refer to the `requirements.txt` file for an overview of the packages in the environment we used to produce our results.
